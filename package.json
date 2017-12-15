@@ -12,12 +12,12 @@
   "bugs": {
     "url": "https://github.com/telegraf/telegraf/issues"
   },
-  "main": ".support.js",
+  "main": "support.js",
   "scripts": {
     "lint": "eslint .",
     "test": "ava test",
     "precommit": "npm run lint && npm test",
-    "start": "node .support.js"
+    "start": "node support.js"
   },
   "engines": {
     "node": ">=6.2.0"
