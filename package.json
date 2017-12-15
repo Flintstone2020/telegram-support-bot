@@ -17,7 +17,7 @@
     "lint": "eslint .",
     "test": "ava test",
     "precommit": "npm run lint && npm test"
-    "start": "npm run server"
+    "start": "node setup"
   },
   "engines": {
     "node": ">=6.2.0"
