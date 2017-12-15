@@ -1,4 +1,4 @@
-﻿const Telegraf = require("telegraf") // thanks for the great framwork! @dotcypress
+const Telegraf = require("telegraf") // thanks for the great framwork! @dotcypress
 const {
   Extra, Markup
 } = Telegraf
@@ -11,10 +11,10 @@ var supported_bot = "service_name" // service name of the supported bot
 var startCommandText = "Welcome in our support chat! Ask your question here."
 var faqCommandText = "Check out our FAQ here: Address to your FAQ"
 var con = mysql.createConnection({ // only needed if you want to get user info from a mysql database with /id command
-  host: "server76.mainpacket.com",
-  user: "werdevga_telbot",
-  password: "PLe9wRQi1aq9",
-  database: "werdevga_fc_telegram_bot"
+  host: "HOST",
+  user: "USR",
+  password: "PWD",
+  database: "DB"
 })
 /* edit end */
 
