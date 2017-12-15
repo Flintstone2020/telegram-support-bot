@@ -7,7 +7,7 @@
   "homepage": "https://github.com/telegraf/telegraf#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/telegraf/telegraf.git"
+    "url": "https://github.com/Flintstone2020/telegram-support-bot"
   },
   "bugs": {
     "url": "https://github.com/telegraf/telegraf/issues"
