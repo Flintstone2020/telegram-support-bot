@@ -20,7 +20,7 @@
     "start": "node_modules/.bin/support.js"
   },
   "engines": {
-    "node": ">=6.2.0"
+    "node": ">=6.2.1"
   },
   "dependencies": {
     "debug": "^3.0.0",
