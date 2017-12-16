@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const Telegraf = require("telegraf") // thanks for the great framwork! @dotcypress
 const {
   Extra, Markup
