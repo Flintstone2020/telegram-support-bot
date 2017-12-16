@@ -1,8 +1,6 @@
 #!/usr/bin/env node
-const Telegraf = require("telegraf") // thanks for the great framwork! @dotcypress
-const {
-  Extra, Markup
-} = Telegraf
+var mysql = require("mysql")
+const Telegraf = require("telegraf") 
 
 /* edit below */
 const bot = new Telegraf("432483645:AAHjzIPtWqiNdycBAGGNclDo2yJ75UE4xAg") // support bot
