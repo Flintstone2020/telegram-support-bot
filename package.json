@@ -13,11 +13,11 @@
     "url": "https://github.com/telegraf/telegraf/issues"
   },
   "main": "bin/support.js",
-"scripts": {
-    "lint": "eslint .",
-    "test": "ava test",
-    "precommit": "npm run lint && npm test",
-    "start": "node bin/support.js"
+    "scripts": {
+       "lint": "eslint .",
+       "test": "ava test",
+      "precommit": "npm run lint && npm test",
+      "start": "node bin/support.js"
   },
   "engines": {
     "node": ">=6.2.1"
