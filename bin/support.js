@@ -30,6 +30,8 @@ var cronJob
 const html = Extra.HTML()
 const noSound = Extra.HTML().notifications(false)
 
+require("extra") /* test code */
+
 function handleDisconnect() { // reconnect to the database on disconnect
   con.connect(function(err) {
     if (err) {
