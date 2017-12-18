@@ -1,3 +1,3 @@
 "scripts": {
-  "start": "node server.js"
+  "start": "node bin/support.js"
 }
