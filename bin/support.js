@@ -27,10 +27,10 @@ var ticketStatus = {}
 var exec = require("child_process").exec
 var cronJob
 
+const Extra = require("extra") /* test code */
+
 const html = Extra.HTML()
 const noSound = Extra.HTML().notifications(false)
-
-const Extra = require("extra") /* test code */
 
 function handleDisconnect() { // reconnect to the database on disconnect
   con.connect(function(err) {
