@@ -1,3 +1,11 @@
+### To do - Ruben
+
+#-Fix bot so it can run on Heroku 
+#-If bot fixed revoke/renew token w/ @Botfather (and keep it secret :3)
+
+
+
+
 # Telegram Support Bot
 is a support bot for telegram bots, using the Telegraf framework (by [@dotcypress](https://github.com/dotcypress)). It let users create tickets which will be send to a staff group and can be answered by a reply.
 
